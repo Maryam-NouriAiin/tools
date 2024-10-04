@@ -1,29 +1,32 @@
 ---
-title: "R"
+title: "R and RStudio: Getting Started"
 ---
 
 ## Installing R and RStudio
 
-Steps to install R:
-Go to r-project.org and download R.
-Installing RStudio:
-Go to rstudio.com and download RStudio (free version).
+### Steps to install R:
+- Go to [r-project.org](https://www.r-project.org/) and download R.
 
+### Installing RStudio:
+- Go to [rstudio.com](https://www.rstudio.com/) and download the free version of RStudio.
 
 ## Getting Started with RStudio
 
-Opening RStudio: Interface overview.
-Script editor, console, environment, and plots panes.
-Creating a new R Script:
-File > New File > R Script.
-Save your script: Always save your work as an .R file.
+### Opening RStudio: Interface Overview
+- **Main components**: Script editor, console, environment, and plots panes.
+
+### Creating a new R Script:
+1. Go to **File** > **New File** > **R Script**.
+2. Save your script: Always save your work as an `.R` file.
 
 ## Basic R Operations
 
-Example: Simple Math Operations in R
-```{r
-2 + 2, 10 / 5, etc.
-}
+### Example: Simple Math Operations in R
+
+```{r}
+2 + 2
+10 / 5
+```
 
 Functions:
 mean(): Calculate the average.
@@ -33,17 +36,17 @@ summary(): Quick data summary.
 ## Loading Datasets in R
 
 Using built-in datasets:
-```{r
+```{r}
 data(mtcars)
-}
+```
 
 
 ## Basic Plotting in R
 
 Simple scatter plot:
-```{r
+```{r}
 plot(mtcars$mpg)
-}
+```
 Customizing the plot:
 Add labels and title: plot(mtcars$mpg, main="MPG Plot", xlab="Car Index", ylab="MPG").
 Explore the dataset: head(mtcars), summary(mtcars).
